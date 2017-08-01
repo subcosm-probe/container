@@ -1,0 +1,15 @@
+{
+    "name": "subcosm-probe/container",
+    "description": "General Purpose Container Foundation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthias Kaschubowski",
+            "email": "nihylum@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
