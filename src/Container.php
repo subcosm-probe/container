@@ -86,6 +86,8 @@ class Container implements ContainerInterface
                 'Can not set invalid value of type: '.gettype($item).( is_object($value) ? '('.get_class($value).')' : '')
             );
         }
+
+        $this->items[$item] = $value;
     }
 
     /**
