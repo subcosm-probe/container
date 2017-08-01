@@ -13,6 +13,8 @@
         "php": ">=7.2"
     },
     "autoload": {
-        "Singularity\\Container\\": "./src"
+        "psr-4": {
+            "Singularity\\Container\\": "./src"
+        }
     }
 }
